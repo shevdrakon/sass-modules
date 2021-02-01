@@ -1,0 +1,21 @@
+.tw-projects-list {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4;
+
+  list-style: none;
+  padding: 0;
+
+  &__new-project-item {
+    @apply hover:shadow-lg flex rounded-lg;
+  }
+
+  &__new-project {
+    @apply
+    text-gray-500
+    hover:border-transparent
+    hover:shadow-sm
+    w-full flex items-center justify-center
+    rounded-lg
+    border-2 border-dashed border-gray-200 text-sm font-medium py-4
+    cursor-pointer;
+  }
+}

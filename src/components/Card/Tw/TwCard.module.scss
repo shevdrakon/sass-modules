@@ -1,0 +1,11 @@
+.tw-card {
+  @apply relative z-10 bg-white rounded-tr-xl sm:rounded-t-xl lg:rounded-xl shadow-lg;
+
+  &__content {
+    @apply px-4 sm:px-6 lg:px-4 xl:px-6 pt-4 pb-4 sm:pb-6 lg:pb-4 xl:pb-6 space-y-4;
+  }
+
+  &__title {
+    @apply flex items-center justify-between;
+  }
+}

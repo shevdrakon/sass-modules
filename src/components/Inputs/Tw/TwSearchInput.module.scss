@@ -1,0 +1,22 @@
+.tw-search-input {
+  @apply relative;
+
+  &__icon {
+    @apply absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400;
+  }
+
+  &__input {
+    border: 0 solid #e5e7eb;
+
+    @apply
+    focus:border-blue-500
+    focus:ring-1
+    focus:ring-blue-500
+    focus:outline-none
+    w-full text-sm text-black placeholder-gray-500
+    border
+    border-gray-200 rounded-md py-2 pl-10;
+
+    box-sizing: border-box;
+  }
+}

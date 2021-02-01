@@ -1,0 +1,28 @@
+.tw-project-description {
+  border: 0 solid;
+  @apply group cursor-pointer rounded-lg p-4 border border-gray-200 hover:bg-blue-500 hover:border-transparent hover:shadow-lg;
+
+  &__details {
+    @apply grid sm:block lg:grid xl:block grid-cols-2 grid-rows-2 items-center m-0;
+  }
+
+  &__name {
+    @apply leading-6 font-medium text-black group-hover:text-white m-0 text-left;
+  }
+
+  &__group {
+    @apply text-sm font-medium group-hover:text-blue-200 sm:mb-4 lg:mb-0 xl:mb-4 m-0 text-left text-gray-500;
+  }
+
+  &__collaborators {
+    @apply col-start-2 row-start-1 row-end-3;
+  }
+
+  &__avatars {
+    @apply flex justify-end sm:justify-start lg:justify-end xl:justify-start -space-x-2 m-0;
+  }
+
+  &__avatar-image {
+    @apply w-7 h-7 rounded-full bg-gray-100 border-2 border-white border-solid;
+  }
+}

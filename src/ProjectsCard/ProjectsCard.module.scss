@@ -1,0 +1,14 @@
+.projects-card {
+  width: 390px;
+
+  &__title {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  &__search-input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}

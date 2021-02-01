@@ -1,0 +1,36 @@
+.add-button {
+  color: rgba(2, 132, 199, 1);
+  padding: .5rem 1rem .5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: .875rem;
+  background-color: rgba(224, 242, 254, 1);
+  cursor: pointer;
+  border-radius: .375rem;
+
+  &:hover {
+    --tw-text-opacity: 1;
+    color: rgba(7, 89, 133, var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgba(186, 230, 253, var(--tw-bg-opacity));
+  }
+
+  &:hover &__icon {
+    --tw-text-opacity: 1;
+    color: rgba(2, 132, 199, var(--tw-text-opacity));
+  }
+
+  &__icon {
+    color: rgba(14, 165, 233, 1);
+    margin-right: .5rem;
+
+    &--red {
+      color: red;
+    }
+
+    &--yellow {
+      color: yellow;
+    }
+  }
+}
